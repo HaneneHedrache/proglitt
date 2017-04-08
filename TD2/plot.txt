@@ -1,0 +1,4 @@
+L'unité de mesure des axes est pécise. 
+La source est indiquée dans le titre du graphique.
+L'origine est présent.
+Il y a un histogramme (et un graphique classique?)

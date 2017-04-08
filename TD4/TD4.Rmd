@@ -37,8 +37,13 @@ ggplot(data=pressure, aes(x=temperature, y=pressure)) +
     geom_point() +
     geom_line() +
     xlab("Temperature (deg C)") +
-    ylab("Pressure (mm of Hg)");
+    ylab("Pressure (mm of Hg)") +
+    theme_bw();
 ```
+```{r}
+mtcars
+```
+
 
 We can associate the size and color of points to other variables.
 
@@ -58,7 +63,7 @@ str(cars);
 
 ```{r}
 ggplot(data=cars) +
-  geom_histogram(aes(x=dist));
+  geom_histogram(aes(x=dist),binwidth=1);
 ```
 
 Merge a histogram and the corresponding Probability Density Function (PDF).
